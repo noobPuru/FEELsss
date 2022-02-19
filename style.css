@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: black;
+  height: 10vh;
+  font-family: 'Lora', serif;
+}
+
+.buttons {
+  display: flex;
+  padding: 25px;
+  color: whitesmoke;
+}
+.type {
+  margin-right: auto;
+  padding-inline-end: 35px;
+}
+.type li {
+  display: inline-block;
+  padding-inline: 60px;
+}
+
+.type li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.setting li {
+  display: inline-block;
+  padding-inline: 13px;
+}
+
+.setting li a {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  /* background-color: bisque; */
+  background: url('../img/index.jpg') no-repeat center center / cover;
+  height: 90vh;
+}
+.emotionOne {
+  display: flex;
+  justify-content: space-around;
+}
+span {
+  color: whitesmoke;
+  padding: 15vh;
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: 'Lora', serif;
+}
+
+.happy img {
+  width: 183px;
+  height: 30vh;
+}
+
+/* .sad img {
+  width: 190px;
+  height: 30vh;
+}
+
+.confused img {
+  height: 30vh;
+}
+
+.love img {
+  height: 27vh;
+}
+
+.depressed img {
+  height: 27vh;
+} */
+.emotionThree {
+  /* background-color: rgb(245, 105, 250); */
+  height: 28vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.list img {
+  height: 33vh;
+  padding: 10px;
+  margin: auto 20;
+}
+
+.list img:hover {
+  transform: translate(-5%, -5%);
+  transition: delay 3s;
+}
+
+.row1 {
+  /* background-color: azure; */
+  height: 30vh;
+}
+.row2 {
+  /* background-color: rgb(163, 252, 252); */
+  height: 30vh;
+}
+.row3 {
+  /* background-color: rgb(212, 212, 255); */
+  height: 30vh;
+}
+
+.choice {
+  display: flex;
+  flex-direction: column;
+}
+.row1 img {
+  height: 28vh;
+  padding-left: 22vh;
+}
+.row2 img {
+  height: 28vh;
+  padding-left: 18vh;
+}
+.row3 img {
+  height: 28vh;
+  padding-left: 24vh;
+}
+.choice img:hover {
+  transform: translate(-2%, -6%);
+}
